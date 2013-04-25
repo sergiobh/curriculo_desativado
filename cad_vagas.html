@@ -1,0 +1,115 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/geral.css" />
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+<div id="faixa_b"></div>
+<div id="topo"><img src="img/logo.png" />
+
+</div>
+
+
+<div id="topo_menu">
+<div id="cad_empresa"><a href="principal.html">CADASTRAR EMPRESA</a></div>
+<div id="cad_vagas">  <a href="cad_vagas.html">CADASTRAR VAGAS</a></div>
+<div id="cad_cand">   <a href="cad_cand.html">CADASTRAR CANDIDATOS</a></div>
+<div id="cad_cand">   <a href="visualiza_vagas.html">LISTAR VAGAS</a></div>
+<div id="cad_cand">   <a href="visualiza_candidatos_vaga.html">LISTAR VAGAS POR CANDIDATOS</a></div>
+
+</div>
+<div id="content_geral">
+<div id="content">
+
+<form action="" method="post" name="form_cad_vagas">
+
+<label>Empresa:</label><br />
+<select id="select_vagas_empresa" class="requerido" >
+<option>Selcione...</option>
+</select>
+
+
+<br />
+
+<label>Cargo:</label><br />
+<select id="select_vagas_cargo" class="requerido" >
+<option>Selcione...</option>
+</select>
+<br />
+
+<label>Descri&ccedil;&atilde;o da vaga:</label><br />
+<textarea rows="3" class="requerido" id="input_vagas_descricao"></textarea>
+<br />
+
+<label>Estado:</label><br />
+<select id="select_vagas_estado" class="requerido" >
+<option>Selcione...</option>
+<option value="AC - Acre">AC - Acre</option>
+<option value="AL - Alagoas">AL - Alagoas</option>
+<option value="AM - Amazonas">AM - Amazonas</option>
+<option value="AP - Amapa">AP - Amapa</option>
+<option value="BA - Bahia">BA - Bahia</option>
+<option value="CE - Ceara">CE - Ceara</option>
+<option value="DF - Distrito Federal">DF - Distrito Federal</option>
+<option value="ES - Espirito Santo">ES - Espirito Santo</option>
+<option value="GO - Goias">GO - Goias</option>
+<option value="MA - Maranhão">MA - Maranhão</option>
+<option value="MG - Minas Gerais">MG - Minas Gerais</option>
+<option value="MS - Mato Grosso do Sul">MS - Mato Grosso do Sul</option>
+<option value="MT - Mato Grosso">MT - Mato Grosso</option>
+<option value="PA - Pará">PA - Pará</option>
+<option value="PB - Paraiba">PB - Paraiba</option>
+<option value="PE - Pernambuco">PE - Pernambuco</option>
+<option value="PI - Piau">PI - Piau</option>
+<option value="PR - Parana">PR - Parana</option>
+<option value="RJ - Rio de Janeiro">RJ - Rio de Janeiro</option>
+<option value="RN - Rio Grande do Norte">RN - Rio Grande do Norte</option>
+<option value="RO - Rondonia">RO - Rondonia</option>
+<option value="RR - Roraima">RR - Roraima</option>
+<option value="RS - Rio Grande do Sul">RS - Rio Grande do Sul</option>
+<option value="SC - Santa Catarina">SC - Santa Catarina</option>
+<option value="SE - Sergipe">SE - Sergipe</option>
+<option value="SP - Sao Paulo">SP - Sao Paulo</option>
+<option value="TO - Tocantins">TO - Tocantins</option>
+</select>
+<br />
+
+<label>Idade Mínima:</label><br />
+<input type="text" id="input_vagas_idade_minima" class="requerido" />
+<br />
+
+<label>Sexo:</label><br />
+<select id="select_vagas_idade_minima" class="requerido" >
+<option>Selcione...</option>
+<option value="Masculino">Masculino</option>
+<option value="Feminino">Feminino</option>
+</select>
+
+
+<br />
+
+<label>Escolaridade:</label><br />
+<select  id="input_vagas_escolaridade" class="requerido">
+          <option value="0"></option>
+          <option value="Ensino fundamental completo">Ensino fundamental completo</option>
+          <option value="Ensino fundamental incompleto">Ensino fundamental incompleto</option>
+          <option value="Ensino médio completo">Ensino médio completo</option>
+          <option value="Ensino médio incompleto">Ensino médio incompleto</option>
+          <option value="Ensino superior completo">Ensino superior completo</option>
+          <option value="Ensino superior incompleto">Ensino superior incompleto</option>
+          <option value="Outro">Outro</option>
+        </select>  
+
+
+<br />
+
+
+</form>
+</div>
+<div id="rel_diversos"></div>
+</div>
+
+
+</body>
+</html>

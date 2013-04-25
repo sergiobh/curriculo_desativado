@@ -1,0 +1,150 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/geral.css" />
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+<div id="faixa_b"></div>
+<div id="topo"><img src="img/logo.png" />
+
+</div>
+
+
+<div id="topo_menu">
+<div id="cad_empresa"><a href="principal.html">CADASTRAR EMPRESA</a></div>
+<div id="cad_vagas">  <a href="cad_vagas.html">CADASTRAR VAGAS</a></div>
+<div id="cad_cand">   <a href="cad_cand.html">CADASTRAR CANDIDATOS</a></div>
+<div id="cad_cand">   <a href="visualiza_vagas.html">LISTAR VAGAS</a></div>
+<div id="cad_cand">   <a href="visualiza_candidatos_vaga.html">LISTAR VAGAS POR CANDIDATOS</a></div>
+
+</div>
+<div id="content_geral">
+<div id="content">
+
+<form action="" method="post" name="form_cad_empresa">
+
+<label>Nome Completo:</label><br />
+<input type="text" id="input_nome_cand" class="requerido" />
+<br />
+
+<label>Email:</label><br />
+<input type="text" id="input_email_cand" class="requerido" />
+<br />
+
+<label>Senha:</label><br />
+<input type="text" id="input_senha" class="requerido" />
+<br />
+
+
+<label> Sexo:</label><br />
+	<select id= "input_sexo_cand" class="requerido">
+		<option> Selecione uma op&ccedil;&atildeo </option>
+		<option value= "Masculino"> Masculino </option>
+		<option value= "Feminino"> Feminino </option>
+	</select>
+	
+<label> Data de Nascimento:</label><br />	
+<input type="text" id="input_dt_nasc_cand" class="requerido" />
+<br />
+
+<label> Estado Civil:</label><br />
+	<select id= "input_est_civil_cand" class="requerido">
+		<option> Selecione uma op&ccedil;&atildeo </option>
+		<option value= "Solteiro"> Solteiro(a) </option>
+		<option value= "Casado"> Casado(a) </option>
+		<option value= "Viuvo"> Viuvo(a) </option>
+		<option value= "Divorciado"> Divorciado(a) </option>
+	</select>
+	
+<label>Endere&ccedil;o:</label><br />
+<input type="text" id="input_endereco_cand" class="requerido"  />
+<br />
+
+<label>Complemento:</label><br />
+<input type="text" id="input_complemento_cand" class="requerido" />
+<br />
+
+<label>CEP:</label><br />
+<input type="text" id="input_cep_cand" class="requerido" />
+<br />
+
+<label>Bairro:</label><br />
+<input type="text" id="input_bairro_cand" class="requerido" />
+<br />
+
+<label>Cidade:</label><br />
+<input type="text" id="input_cidade_cand" class="requerido" />
+<br />
+
+<label>Estado:</label><br />
+<input type="text" id="input_estado_cand" class="requerido" />
+<br />
+
+<label> Telefone: </label><br />
+<textarea id="input_tel_cand" class="requerido"></textarea>
+<br />
+
+<label>Forma&ccedil;&atilde;o:</label><br />
+<select id= "input_formacao_cand" class="requerido">
+		<option> Selecione uma op&ccedil;&atildeo </option>
+		<option value= "Primeiro_grau_in"> Primeiro Grau Incompleto </option>
+		<option value= "Primeiro_grau_com"> Primeiro Grau Completo </option>
+		<option value= "Segundo_grau_in"> Segundo Grau Incompleto </option>
+		<option value= "Primeiro_grau_com"> Segundo Grau Completo </option>
+		<option value= "Superior_in"> Superior Incompleto </option>
+		<option value= "Superior_com"> Superior Completo </option>
+		<option value= "Pos_graduacao"> P&oacute;s - Gradua&ccedil;&atilde;o </option>
+		<option value= "Mestrado"> Mestrado </option>
+		<option value= "Doutorado"> Doutorado </option>
+	</select>
+<br />
+
+<label> Qualifica&ccedil;&atilde;o Profissional: (Cursos, Palestras, etc)</label><br />
+<textarea id="input_quali_prof" class="requerido"></textarea>
+<br />
+
+ <label>Idiomas:</label> 
+ <textarea type="textarea" id="idioma_cand" value="Portugu&ecirc;s," ></textarea><label>(Digite os idiomas separados por virgula)</label>
+</br>
+</br>
+
+   
+ <label>Area de Interesse:</label> 
+	<select  id="area_atua_cand">
+	
+		<option> Selecione uma op&ccedil;&atildeo </option>
+		
+		<option value="Medico"> M&eacute;dico(a) Clinico Geral </option>
+		<option value="Medico"> M&eacute;dico(a) Pediatra </option>
+		<option value="Enfermeiro"> Enfermeiro (a) </option>
+		<option value="Farmaceutico"> Farmaceutico(a) </option>
+		<option value="Medico"> M&eacute;dico(a) Clinico Anestesista </option>
+		<option value="M&eacute;dico"> M&eacute;dico(a) Clinico Coordenador </option>
+		
+	</select>	
+		
+ </br>
+ </br>
+ 
+  <label>Experi&ecirc;ncia Profissional:</label> 
+ <textarea type="textarea" id="exp_prof"  ></textarea> <label>(Descreva suas ultimas experi&ecirc;ncias profissionais)</label>
+ </br>
+ </br>
+
+ <label>Descreva mais sobre Voc&ecirc;:</label> 
+ <textarea type="textarea" id="Fale_cand" ></textarea> <label></label>
+ </br>
+ </br>
+ 
+<!--<input name="arquivo" type="file"> -->
+
+<input type="submit" id="bot_enviar_cand" value=" Finalizar Cadastro" class="botao_enviar_cand" />
+</form>
+</div>
+<div id="rel_diversos"></div>
+</div>
+
+
+</body>
+</html>
